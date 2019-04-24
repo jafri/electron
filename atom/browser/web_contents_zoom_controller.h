@@ -51,6 +51,8 @@ class WebContentsZoomController
     ZOOM_MODE_DISABLED,
   };
 
+  enum ZoomDirection { IN, OUT };
+
   explicit WebContentsZoomController(content::WebContents* web_contents);
   ~WebContentsZoomController() override;
 
