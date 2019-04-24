@@ -57,6 +57,6 @@ Example Use Case:
 
 8. Modify the VM as required.
 
-9. Shut down the VM and then delete it in Azure.
+9. Shut down the VM and then delete it in Azure.  **This is very important as failure to do so will lead to excessive Azure charges.**
 
 10. Add the new image to the Appveyor Cloud settings or modify an existing image to point to the new VHD.
